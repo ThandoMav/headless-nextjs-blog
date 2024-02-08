@@ -1,0 +1,46 @@
+{
+    "name": "StudentFontein30Jan",
+    "version": "0.1.0",
+    "private": true,
+    "engines": {
+        "node": "16.x"
+      },
+    "scripts": {
+        "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider'  next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@graphcms/rich-text-react-renderer": "^0.6.1",
+        "@headlessui/react": "^1.7.7",
+        "@heroicons/react": "^2.0.13",
+        "cross-env": "^7.0.3",
+        "graphql": "^15.6.1",
+        "graphql-request": "^3.5.0",
+        "html-react-parser": "^1.4.0",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "next": "^11.1.4",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-icons": "^4.7.1",
+        "react-multi-carousel": "^2.6.5",
+        "sass": "^1.42.1",
+        "swr": "^1.0.1"
+    },
+    "devDependencies": {
+        "aos": "^2.3.4",
+        "autoprefixer": "^10.3.6",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-next": "11.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.26.1",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "postcss": "^8.3.8",
+        "react-icons": "^4.4.0",
+        "tailwindcss": "^2.2.7"
+    }
+}
